@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import Home from "./components/Home";
 
  function App() {
   const [size, setSize] = useState({
@@ -19,7 +19,7 @@ import { useState, useEffect } from "react";
       {
         size.x <= 500 && <h2>ami 500</h2> || size.x <= 700 && <h1>ani 700</h1> || size.x <= 1000 && <h1>ami 1000</h1>
       }
-  
+    <Home></Home>
     </>
   );
 }
