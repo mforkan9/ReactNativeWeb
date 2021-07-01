@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 
-export default function App() {
+ function App() {
   const [size, setSize] = useState({
     x: window.innerWidth,
     y: window.innerHeight
@@ -23,3 +23,4 @@ export default function App() {
     </>
   );
 }
+export default App;
